@@ -1,15 +1,15 @@
 {
-    "name": "WhatsAsenaDuplicated",
-    "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
-    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated",
-    "website":   "https://t.me/phaticusthiccy",
-    "success_url": "https://t.me/AsenaSupport",
+    "name": "SL",
+    "description": "SL Android Bot - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "logo": "https://raw.githubusercontent.com/RazorKenway/RazorKenway/main/SL_Android.jpg",
+    "keywords": ["whatsapp", "userbot", "SL ANDROID BOT", "bot", "api", "ai"],
+    "repository": "https://github.com/SourceXSL/SL.git",
+    "website":   "https://t.me/RazorKenway",
+    "success_url": "https://t.me/SL_Android",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
+            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours SL Android Bot Session.",
             "required": true
         },
         "SUDO": {
@@ -121,7 +121,7 @@
         "GAN_IMAGE": {
             "description": "Gan Style eklentisi için resim bağlantısı yazın. Type image link for Gan Style plugin.",
             "required": true,
-            "value": "https://i.hizliresim.com/loUtAb.jpg"
+            "value": "https://raw.githubusercontent.com/RazorKenway/RazorKenway/main/SL_Android.jpg"
         },
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
