@@ -147,7 +147,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         console.log(
             chalk.blueBright.italic('⬇️  Installing Plugins...')
         );
-
+*/  
         // ==================== Internal Plugins ====================
         fs.readdirSync('./plugins').forEach(plugin => {
             if(path.extname(plugin).toLowerCase() == '.js') {
@@ -159,7 +159,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         console.log(
             chalk.green.bold('✅ Plugins Installed!')
         );
-*/       
+     
         await new Promise(r => setTimeout(r, 1100));
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
