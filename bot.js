@@ -155,10 +155,11 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             }
         });
         // ==================== End Internal Plugins ====================
-*/
+
         console.log(
             chalk.green.bold('✅ Plugins Installed!')
         );
+       
         await new Promise(r => setTimeout(r, 1100));
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
@@ -171,7 +172,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     } 
                 });
             })
-        }
+        } */
         if (config.WORKTYPE == 'public') {
             if (config.LANG == 'TR' || config.LANG == 'AZ') { await conn.sendMessage(conn.user.jid, '*SL Android Runs as Public! 🐺*\n\n_Please do not test plugins here. This is your LOG number._\n_You can try commands in any chat :)_\n\n*Your bot works publicly. To change* _.setvar WORK_TYPE:private_ *use command.*\n\n*Thanks for using SL Android Bot 💌*', MessageType.text);
                 await git.fetch();
