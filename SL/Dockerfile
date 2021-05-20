@@ -1,4 +1,4 @@
-FROM fusuf/SL:latest
+FROM fusuf/sl:latest
 
 RUN git clone https://github.com/SourceXSL/SL/root/SL
 WORKDIR /root/SL/
