@@ -129,7 +129,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         console.log(
             chalk.blueBright.italic('⬇️ Installing External Plugins...')
         );
-/*
+
         // ==================== External Plugins ====================
         var plugins = await plugindb.PluginDB.findAll();
         plugins.map(async (plugin) => {
@@ -147,7 +147,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         console.log(
             chalk.blueBright.italic('⬇️  Installing Plugins...')
         );
-*/  
+  
         // ==================== Internal Plugins ====================
         fs.readdirSync('./plugins').forEach(plugin => {
             if(path.extname(plugin).toLowerCase() == '.js') {
